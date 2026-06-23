@@ -169,8 +169,12 @@ Pytania do SO( lepiej nie można)
    Jest to odebranie procesu procesora , wykonywane zazwyczaj za pomocą przerwań zegarowych. Wykonuje się je m.in., gdy proces przechodzi ze stanu aktywnego do gotowego (np. przerwanie) lub z oczekiwania do gotowego.
 
 5. **Narysować trzy diagramy Ganta ilustrujące działanie cpu według 3 algorytmów:**
-    - FCFS (First Come First Served), 
-    - SJF (Shortest Job First) z i bez wywłaszczenia,
+    - FCFS (First Come First Served),
+      <br><img width="603" height="722" align="middle" alt="Zrzut ekranu 2026-06-23 232401" src="https://github.com/user-attachments/assets/b0645055-7460-4b62-859f-4fa21012c0ef" />
+    - SJF (Shortest Job First) bez wywłaszczenia,
+      <br><img width="613" height="367" align="middle" alt="Zrzut ekranu 2026-06-23 232412" src="https://github.com/user-attachments/assets/5f2b0a85-802a-4111-a2a9-6bb89d05eb5a" />
+    - SJF (Shortest Job First) z wywłaszczeniem,
+      <br><img width="567" height="487" align="middle" alt="Zrzut ekranu 2026-06-23 232417" src="https://github.com/user-attachments/assets/be4e3cce-daac-4216-9df5-5c8b6272c260" />
     - Round Robin (planowanie rotacyjne).
 
    (Ze względu na specyfikę środowiska opiszę, jak na podstawie materiałów wyglądają te diagramy). FCFS (First Come First Served): Procesy są dodawane na diagram w dokładnej kolejności ich zgłoszeń. Każdy z nich wykonuje się jednym ciągiem bez przerywania aż do końca swojej fazy. SJF (Shortest Job First): * Bez wywłaszczania: Procesy układa się w kolejności od najkrótszego zapotrzebowania czasowego do najdłuższego (biorąc pod uwagę procesy aktualnie gotowe). Wykonywane są ciągiem bez przerw. Z wywłaszczaniem (SRTF): Jeżeli podczas wykonywania procesu nadejdzie nowy proces z krótszym czasem do końca cyklu, obecny proces jest wywłaszczany i zastępowany krótszym. Diagram jest podzielony na więcej, krótszych bloków. Round Robin (planowanie rotacyjne): Diagram podzielony jest na równe kwanty czasu (np. 20 ms). Każdy proces po kolei z kolejki FIFO otrzymuje jeden kwant; jeśli go nie skończy, przerywa działanie i przechodzi na koniec kolejki (na diagramie przeplatają się bloki różnych procesów wielkości jednego kwantu).

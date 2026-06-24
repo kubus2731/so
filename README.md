@@ -1,5 +1,9 @@
 # SO
-Pytania do SO( lepiej nie można)
+Pytania do SO( lepiej nie można)<br>
+WAŻNE INFO:
+- egzamin z 2025 roku jest kopią z 2024 roku, więc duże prawdopodobieństwo, że będzie to samo
+- pytania w readme to są w całości z wykładu, a odpowiedzi są bazowane na wykładach z CEZ
+- miłej nauki życzę
 
 
 ## Wykład 1
